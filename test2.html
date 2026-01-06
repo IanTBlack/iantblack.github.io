@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.7.3.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="ef0fa1dc-1b8d-4be9-a311-0db77f824d6e" data-root-id="p1164" style="display: contents;"></div>
+  
+    <script type="application/json" id="b19db313-97aa-4273-a10f-2efcd884c44a">
+      {"89be930e-ce85-4086-8ca4-9378ec38c1e4":{"version":"3.7.3","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p1164","attributes":{"height":250,"x_range":{"type":"object","name":"FactorRange","id":"p1174","attributes":{"factors":["Apples","Pears","Nectarines","Plums","Grapes","Strawberries"],"range_padding":0.1}},"y_range":{"type":"object","name":"DataRange1d","id":"p1166","attributes":{"start":0}},"x_scale":{"type":"object","name":"CategoricalScale","id":"p1175"},"y_scale":{"type":"object","name":"LinearScale","id":"p1176"},"title":{"type":"object","name":"Title","id":"p1167","attributes":{"text":"Fruit Counts by Year"}},"outline_line_color":null,"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1203","attributes":{"name":"2015","data_source":{"type":"object","name":"ColumnDataSource","id":"p1194","attributes":{"selected":{"type":"object","name":"Selection","id":"p1195","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1196"},"data":{"type":"map","entries":[["fruits",["Apples","Pears","Nectarines","Plums","Grapes","Strawberries"]],["2015",[2,1,4,3,2,4]],["2016",[5,3,4,2,4,6]],["2017",[3,2,4,4,5,3]]]}}},"view":{"type":"object","name":"CDSView","id":"p1204","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1205"}}},"glyph":{"type":"object","name":"VBar","id":"p1200","attributes":{"x":{"type":"field","field":"fruits"},"width":{"type":"value","value":0.9},"bottom":{"type":"expr","expr":{"type":"object","name":"Stack","id":"p1188","attributes":{"fields":[]}}},"top":{"type":"expr","expr":{"type":"object","name":"Stack","id":"p1189","attributes":{"fields":["2015"]}}},"line_color":{"type":"value","value":"#004488"},"fill_color":{"type":"value","value":"#004488"},"hatch_color":{"type":"value","value":"#004488"}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1201","attributes":{"x":{"type":"field","field":"fruits"},"width":{"type":"value","value":0.9},"bottom":{"type":"expr","expr":{"id":"p1188"}},"top":{"type":"expr","expr":{"id":"p1189"}},"line_color":{"type":"value","value":"#004488"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#004488"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"#004488"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1202","attributes":{"x":{"type":"field","field":"fruits"},"width":{"type":"value","value":0.9},"bottom":{"type":"expr","expr":{"id":"p1188"}},"top":{"type":"expr","expr":{"id":"p1189"}},"line_color":{"type":"value","value":"#004488"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#004488"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#004488"},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"GlyphRenderer","id":"p1217","attributes":{"name":"2016","data_source":{"type":"object","name":"ColumnDataSource","id":"p1208","attributes":{"selected":{"type":"object","name":"Selection","id":"p1209","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1210"},"data":{"type":"map","entries":[["fruits",["Apples","Pears","Nectarines","Plums","Grapes","Strawberries"]],["2015",[2,1,4,3,2,4]],["2016",[5,3,4,2,4,6]],["2017",[3,2,4,4,5,3]]]}}},"view":{"type":"object","name":"CDSView","id":"p1218","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1219"}}},"glyph":{"type":"object","name":"VBar","id":"p1214","attributes":{"x":{"type":"field","field":"fruits"},"width":{"type":"value","value":0.9},"bottom":{"type":"expr","expr":{"type":"object","name":"Stack","id":"p1190","attributes":{"fields":["2015"]}}},"top":{"type":"expr","expr":{"type":"object","name":"Stack","id":"p1191","attributes":{"fields":["2015","2016"]}}},"line_color":{"type":"value","value":"#DDAA33"},"fill_color":{"type":"value","value":"#DDAA33"},"hatch_color":{"type":"value","value":"#DDAA33"}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1215","attributes":{"x":{"type":"field","field":"fruits"},"width":{"type":"value","value":0.9},"bottom":{"type":"expr","expr":{"id":"p1190"}},"top":{"type":"expr","expr":{"id":"p1191"}},"line_color":{"type":"value","value":"#DDAA33"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#DDAA33"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"#DDAA33"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1216","attributes":{"x":{"type":"field","field":"fruits"},"width":{"type":"value","value":0.9},"bottom":{"type":"expr","expr":{"id":"p1190"}},"top":{"type":"expr","expr":{"id":"p1191"}},"line_color":{"type":"value","value":"#DDAA33"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#DDAA33"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#DDAA33"},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"GlyphRenderer","id":"p1230","attributes":{"name":"2017","data_source":{"type":"object","name":"ColumnDataSource","id":"p1221","attributes":{"selected":{"type":"object","name":"Selection","id":"p1222","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1223"},"data":{"type":"map","entries":[["fruits",["Apples","Pears","Nectarines","Plums","Grapes","Strawberries"]],["2015",[2,1,4,3,2,4]],["2016",[5,3,4,2,4,6]],["2017",[3,2,4,4,5,3]]]}}},"view":{"type":"object","name":"CDSView","id":"p1231","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1232"}}},"glyph":{"type":"object","name":"VBar","id":"p1227","attributes":{"x":{"type":"field","field":"fruits"},"width":{"type":"value","value":0.9},"bottom":{"type":"expr","expr":{"type":"object","name":"Stack","id":"p1192","attributes":{"fields":["2015","2016"]}}},"top":{"type":"expr","expr":{"type":"object","name":"Stack","id":"p1193","attributes":{"fields":["2015","2016","2017"]}}},"line_color":{"type":"value","value":"#BB5566"},"fill_color":{"type":"value","value":"#BB5566"},"hatch_color":{"type":"value","value":"#BB5566"}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1228","attributes":{"x":{"type":"field","field":"fruits"},"width":{"type":"value","value":0.9},"bottom":{"type":"expr","expr":{"id":"p1192"}},"top":{"type":"expr","expr":{"id":"p1193"}},"line_color":{"type":"value","value":"#BB5566"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#BB5566"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"#BB5566"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1229","attributes":{"x":{"type":"field","field":"fruits"},"width":{"type":"value","value":0.9},"bottom":{"type":"expr","expr":{"id":"p1192"}},"top":{"type":"expr","expr":{"id":"p1193"}},"line_color":{"type":"value","value":"#BB5566"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#BB5566"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#BB5566"},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1173","attributes":{"tools":[{"type":"object","name":"HoverTool","id":"p1187","attributes":{"renderers":"auto","tooltips":"$name @fruits: @$name"}}]}},"toolbar_location":null,"left":[{"type":"object","name":"LinearAxis","id":"p1182","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1183","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1184"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1185"},"minor_tick_line_color":null}}],"below":[{"type":"object","name":"CategoricalAxis","id":"p1177","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p1178"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p1179"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1180"},"minor_tick_line_color":null}}],"center":[{"type":"object","name":"Grid","id":"p1181","attributes":{"axis":{"id":"p1177"},"grid_line_color":null}},{"type":"object","name":"Grid","id":"p1186","attributes":{"dimension":1,"axis":{"id":"p1182"}}},{"type":"object","name":"Legend","id":"p1206","attributes":{"location":"top_left","orientation":"horizontal","items":[{"type":"object","name":"LegendItem","id":"p1207","attributes":{"label":{"type":"value","value":"2015"},"renderers":[{"id":"p1203"}]}},{"type":"object","name":"LegendItem","id":"p1220","attributes":{"label":{"type":"value","value":"2016"},"renderers":[{"id":"p1217"}]}},{"type":"object","name":"LegendItem","id":"p1233","attributes":{"label":{"type":"value","value":"2017"},"renderers":[{"id":"p1230"}]}}]}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('b19db313-97aa-4273-a10f-2efcd884c44a').textContent;
+              const render_items = [{"docid":"89be930e-ce85-4086-8ca4-9378ec38c1e4","roots":{"p1164":"ef0fa1dc-1b8d-4be9-a311-0db77f824d6e"},"root_ids":["p1164"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
